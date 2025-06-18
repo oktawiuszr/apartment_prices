@@ -10,7 +10,7 @@ A. Data cleaning steps:
 
 B. Data analysis
 1. Wrocław, Warszawa, Lublin, Łódz, Radom, + city with the largest number of records
-2. Choice of spectrum of normalized parameters, with similar data, based on mediane, but suficient number of records.
+2. #Choice of spectrum of normalized parameters, with similar data, based on mediane, but suficient number of records.
 3. Dependence of price VS. hasElevator
 4. Dependence price for standard flat rent vs time 
 5. Price vs centerDistance
