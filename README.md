@@ -43,7 +43,9 @@ bash
 
 # Data Description
 Source: https://www.kaggle.com/datasets/krzysztofjamroz/apartment-prices-in-poland
+
 Features: city, area of flat, type of builiding, builidning material, age of buliding, ownership, condition, poi, number of rooms, floor, total number of floors in buliding, latitude, longitude distance to: center, universty, kindergarden, pharmacy, clinic, post office or restaurant, avaliability of parking space, balcony, storageroom, security and elevator.
+
 Period: between August 2023 and June 2024
 
 # Methodology
