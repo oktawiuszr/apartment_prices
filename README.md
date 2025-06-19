@@ -57,19 +57,12 @@ Period: between August 2023 and June 2024
 1. Data cleaning:
 
 - NaN in hasStorageRoom, hasSecurity, has Elevator, hasBalcony, and hasParkingSpace the NaN filled with "No".
-
 - NaN in distances filled with centereDistance.
-
 - NaN in condition filled with "Low".
-
 - NaN in floor filled with FloorCount.
-
 - NaN in floorCount is filled with 6.
-
 - NaN in bulidYear filled with random number from 1850 to 1930.
-
 - NaN in type filled with "NoType".
-
 - NaN in buidingMaterial filled with "concreteSlab".
 
 2. Joining all subset for rent and purchase into one dataset.
