@@ -38,7 +38,8 @@ bash
         5_average_price_vs_time.ipynb            # Analysis of average price for rent and purchase of apartment over time.
         6_centre_distance.ipynb                  # Analysis of price and distance distrubution for selected cities.
         7_ML_testing_wroclaw.ipynb               # Features selection for ML models, evaluation models parameters, and comparison ML models.
-        8_best_ML_model_selection.ipynb          # Comparison of accuracy, and efficiency of ML models.                             9_price_prediction.ipynb                 # ML model pipeline generation for Wrocław rent price prediction.
+        8_best_ML_model_selection.ipynb          # Comparison of accuracy, and efficiency of ML models.
+        9_price_prediction.ipynb                 # ML model pipeline generation for Wrocław rent price prediction.
         10_app.py                                # Script to predict price of rent in Wrocław by browser survey.
         my.py                                    # Functions.
 ```
