@@ -12,9 +12,8 @@ The goal of the project is to analyse factors contribution on price of the rent,
 - Statistical analysis for these binary features (Mann-Whteney U, T-test, Kolmogorov-Smirnov Test, Cliff's Delta).
 - Average price for rent and purchase of apartment between August 2023 and June 2024 for selected cities.
 - Machine Learning models, and their parameters.
-- Machine Learning models' accuracy and efficiency (training and fitting time measurement, MAE, R$^2$, cross validation, and RMSE calculations).
-
-### ML-based price prediction app for Wrocław
+- Machine Learning models' accuracy and efficiency (training and fitting time measurement, MAE, R$^2$, cross validation, and RMSE calculations)
+- ML-based price prediction app for Wrocław
 
 ## Project Structure
 
@@ -50,7 +49,7 @@ Source: https://www.kaggle.com/datasets/krzysztofjamroz/apartment-prices-in-pola
 
 Features: city, area of flat, type of builiding, builidning material, age of buliding, ownership, condition, poi, number of rooms, floor, total number of floors in buliding, latitude, longitude distance to: center, universty, kindergarden, pharmacy, clinic, post office or restaurant, avaliability of parking space, balcony, storageroom, security and elevator.
 
-Period: between August 2023 and June 2024
+Period: from August 2023 to June 2024.
 
 # Methodology
 
@@ -66,15 +65,10 @@ Period: between August 2023 and June 2024
 - NaN in buidingMaterial filled with "concreteSlab".
 
 2. Joining all subset for rent and purchase into one dataset.
-
 3. Exploration of statistial methods (Mann-Whteney U, T-test, Kolmogorov-Smirnov Test, Cliff's Delta).
-
 4. Comparison of distribution of price, and distance to center for each city, and among them.
-
 5. Testing ML models.
-
 6. Evaluation of time and accuraty of prediction for ML models.
-
 7. Pipeline performance for Wrocław, and selected features for app use.
 
 # Key Findings
