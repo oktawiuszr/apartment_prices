@@ -18,7 +18,8 @@ The goal of the project is to analyse factors contribution on price of the rent,
 
 ## Project Structure
 
-bash```
+bash
+```
 
 ├─data/               # Datasets (original, intermediate, cleaned)
 ├─ML_models/          # Machine Learning models for Linear Reggresion, Random Forest, and Extreme Gradient Boosting (XGB)
