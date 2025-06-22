@@ -54,7 +54,6 @@ Period: from August 2023 to June 2024.
 # Methodology
 
 1. Data cleaning:
-
 - NaN in hasStorageRoom, hasSecurity, has Elevator, hasBalcony, and hasParkingSpace the NaN filled with "No".
 - NaN in distances filled with centereDistance.
 - NaN in condition filled with "Low".
@@ -63,7 +62,6 @@ Period: from August 2023 to June 2024.
 - NaN in bulidYear filled with random number from 1850 to 1930.
 - NaN in type filled with "NoType".
 - NaN in buidingMaterial filled with "concreteSlab".
-
 2. Joining all subset for rent and purchase into one dataset.
 3. Exploration of statistial methods (Mann-Whteney U, T-test, Kolmogorov-Smirnov Test, Cliff's Delta).
 4. Comparison of distribution of price, and distance to center for each city, and among them.
@@ -73,7 +71,20 @@ Period: from August 2023 to June 2024.
 
 # Key Findings
 
-# How to Run
+## Average price of square meter for Warszawa, Lublin, Radom, Wrocław, and Kraków from September 2023 to June 2024
+
+### Rent
+
+Average rental prices range from appriximately 40 to 85 zł per square meter. Warsaw commands the highest rental rates, while Wrocław and Kraków follow with comparably similar prices. Radom remains the most affordable city for renters. Notably, Warsaw has shown a downward trend in rental prices.
+
+### Purchase
+
+Puechase prices range from around 6,000 zł to over 18,000 zł per square meter. The highest property pries are consistenly found in Warsaw, followed by Kraków, Wroclaw, Lublin, and Radom. Across all cities, a steady upward trend in purchase prices has been observed over time.
+![alt text](plots/purchase_average_price_vs_period.png)
+
+
+## Machine learning model accuracy and performance
+[text](reports/ML_models_comparison.csv)
 
 ## Clone the repo
 
