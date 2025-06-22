@@ -86,6 +86,23 @@ Puechase prices range from around 6,000 zł to over 18,000 zł per square meter.
 ## Machine learning model accuracy and performance
 [text](reports/ML_models_comparison.csv)
 
+### Speed
+- Linear Regression is by far the fastest model
+    - Prediciton time is  app. 3 times shorter thant XGBoost and app. 10 times shorter than Random Forest.
+    - Training time: <0.001 sec
+- Random Forest is the slowst in both trainng and prediction:
+    - Training time: app. 3.4 sec.
+- XGBoost is somewhere in the middle:
+    - Training time: app.0.2 sec
+### Prediction Accuracy
+
+Coeffictient of Determination (R$^2$)
+- Linear Regression:(R$^2$) = 0.68 
+- XGBoost and Random Forsest: (R$^2$) 0.91
+
+Error Metrics:
+- RMSE and MAE for Linear Regression are 1.5 times higher than for XGBoost and Random Forest, indicating significantly worse predicive accuracy.
+
 ## Clone the repo
 
 git clone https://github.com/your-username/your-repo.git
