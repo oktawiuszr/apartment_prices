@@ -12,7 +12,7 @@ The goal of the project is to analyse factors contribution on price of the rent,
 - Statistical analysis for these binary features (Mann-Whteney U, T-test, Kolmogorov-Smirnov Test, Cliff's Delta).
 - Average price for rent and purchase of apartment between August 2023 and June 2024 for selected cities.
 - Machine Learning models, and their parameters.
-- Machine Learning models' accuracy and efficiency (training and fitting time measurement, MAE, R $^2$, cross validation, and RMSE calculations)
+- Machine Learning models' accuracy and efficiency (training and fitting time measurement, MAE, $R^2$, cross validation, and RMSE calculations)
 - ML-based price prediction app for Wrocław
 
 ## Project Structure
@@ -71,15 +71,15 @@ Period: from August 2023 to June 2024.
 
 # Key Findings
 
-## Average price of square meter for Warszawa, Lublin, Radom, Wrocław, and Kraków from September 2023 to June 2024
-
+## Average price over time
+Average price of square meter for Warszawa, Lublin, Radom, Wrocław, and Kraków from September 2023 to June 2024
 ### Rent
 
-Average rental prices range from appriximately 40 to 85 zł per square meter. Warsaw commands the highest rental rates, while Wrocław and Kraków follow with comparably similar prices. Radom remains the most affordable city for renters. Notably, Warsaw has shown a downward trend in rental prices.
+Average rental prices range from appriximately 40 zł to 85 zł per square meter. Warsaw commands the highest rental rates, while Wrocław and Kraków follow with comparably similar prices. Radom remains the most affordable city for renters. Notably, Warsaw has shown a downward trend in rental prices.
 
 ### Purchase
 
-Puechase prices range from around 6,000 zł to over 18,000 zł per square meter. The highest property pries are consistenly found in Warsaw, followed by Kraków, Wroclaw, Lublin, and Radom. Across all cities, a steady upward trend in purchase prices has been observed over time.
+Purchase prices range from around 6,000 zł to over 18,000 zł per square meter. The highest property pries are consistenly found in Warsaw, followed by Kraków, Wroclaw, Lublin, and Radom. Across all cities, a steady upward trend in purchase prices has been observed over time.
 ![alt text](plots/purchase_average_price_vs_period.png)
 
 
@@ -107,6 +107,8 @@ Puechase prices range from around 6,000 zł to over 18,000 zł per square meter.
 - Error Metrics:
 
     - RMSE and MAE for Linear Regression are 1.5 times higher than for XGBoost and Random Forest, indicating significantly worse predicive accuracy.
+
+XGBoost demostrated the most balanced performance, offering a strong compromise between computational efficiency and predictive accuracy. While not the fostest model, it significantly outperforms Linear Regression in terms of accuracy, and trains markedly faster than Random Forest, making it a highly effective and scalable choice for practical applications.
 
 ## Clone the repo
 
