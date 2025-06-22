@@ -101,7 +101,7 @@ Puechase prices range from around 6,000 zł to over 18,000 zł per square meter.
 
 - Coeffictient of Determination R($^2$):
 
-    - Linear Regression:R($^2$) = 0.68 
+    - Linear Regression:R $^2$ = 0.68 
     - XGBoost and Random Forsest: R($^2$) 0.91
 
 - Error Metrics:
