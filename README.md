@@ -12,7 +12,7 @@ The goal of the project is to analyse factors contribution on price of the rent,
 - Statistical analysis for these binary features (Mann-Whteney U, T-test, Kolmogorov-Smirnov Test, Cliff's Delta).
 - Average price for rent and purchase of apartment between August 2023 and June 2024 for selected cities.
 - Machine Learning models, and their parameters.
-- Machine Learning models' accuracy and efficiency (training and fitting time measurement, MAE, R$^2$, cross validation, and RMSE calculations)
+- Machine Learning models' accuracy and efficiency (training and fitting time measurement, MAE, R $^2$, cross validation, and RMSE calculations)
 - ML-based price prediction app for Wrocław
 
 ## Project Structure
@@ -99,10 +99,10 @@ Puechase prices range from around 6,000 zł to over 18,000 zł per square meter.
 
 ### Prediction Accuracy
 
-- Coeffictient of Determination R($^2$):
+- Coeffictient of Determination R$^2$:
 
-    - Linear Regression:R $^2$ = 0.68 
-    - XGBoost and Random Forsest: R($^2$) 0.91
+    - Linear Regression:R$^2$ = 0.68 
+    - XGBoost and Random Forsest: R$^2$ 0.91
 
 - Error Metrics:
 
