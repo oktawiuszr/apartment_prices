@@ -71,6 +71,22 @@ Period: from August 2023 to June 2024.
 
 # Key Findings
 
+## Statistial analysis
+
+The comparison of statistal indicators using t-test, Mann–Whitney, Kolmogorov–Smirnov (KS), amd Cliff's Delta methods for the presence and absence of amenities such as elevator, security, storage room, balcony, and parking space, allows us to assess the impact of these features on rental price differences.
+
+- The Mann–Whitney U test compares the relative magnitude of values between two groups.
+- The t-test compares the means of distributions, assuming normality.
+- KS method test evaluates wheter the overall distributions differ.
+- Cliff's Delta quantifies the effect size, measuring the degree of separation between groups.
+
+### Rent
+While all features yield statisically significant p-values across tests, only the presence of an elevator shows a standout correlation with a practically meaning effect size. This indicates that, among the amentities tested, the elevator is the only one with a clear and measurable impact on rental pricing.
+
+### Purchase
+All amenities show statistically significant differences in purchase prices between presence and absence group, but only presence of security, storage room, parking space, and elevator exhibit small but parctically relevant effect sizes, what suggest these amentites contribute to rent valuation, which securinty have the most pronouced impact.
+
+
 ## Average price over time
 Average price of square meter for Warszawa, Lublin, Radom, Wrocław, and Kraków from September 2023 to June 2024
 ### Rent
@@ -102,7 +118,7 @@ Purchase prices range from around 6,000 zł to over 18,000 zł per square meter.
 - Coeffictient of Determination $R^2$:
 
     - Linear Regression: $R^2$ = 0.68 
-    - XGBoost and Random Forsest: $R^2$ 0.91
+    - XGBoost and Random Forsest: $R^2$ = 0.91
 
 - Error Metrics:
 
@@ -128,4 +144,3 @@ jupyter notebook notebooks/eda_modeling.ipynb
 - Data analysis of price changes over time, and distance to center
 
 # Contact
-
