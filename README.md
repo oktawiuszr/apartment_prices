@@ -110,6 +110,8 @@ During the analysis, there were analyzed distribution of price [zł], and distan
 
 #### Rent Distance
 
+![Distnace Distribution for Rent](plots/rent_distance_distibution.png)
+
  For almost all cities is observed significant peak in distance between 2 km to 2,5 km to center. The peaks' left skewness is determined by city magnitude - peaks for larger cities are shifted to left. Next significant peaks are observed for all cities, except Radom, in distance from 4,5 km to 5 km to center. For Krakow and Warszawa observed is also peak in range of value around 9 km and 1 km, where for Krakow these peaks are shifted to left by app. 1 km.
 
 #### Purchase Distance
@@ -124,8 +126,9 @@ For all cities Rent Price Distribution has one significant peak between values 2
 
 ### Purchase Price
 
-For all cities, the distribution of price of the purchase exhibit a single significant peak, and is left skewed. In Radom peak occurs above 250 000 zł. In Lublin is centered above 500 000 zł. For Wrocław and Krakow, the peaks fall within the 650 000- 600 000 zł range. In Warszawa the peak is observed for above 700 000 zł, reflecting its position as the most expensive market among the analyzed cities. 
+![Price Distribution for Purchase](plots/purchase_price_distibution.png)
 
+For all cities, the distribution of price of the purchase exhibit a single significant peak, and is left skewed. In Radom peak occurs above 250 000 zł. In Lublin is centered above 500 000 zł. For Wrocław and Krakow, the peaks fall within the 650 000- 600 000 zł range. In Warszawa the peak is observed for above 700 000 zł, reflecting its position as the most expensive market among the analyzed cities.
 
 #### Price vs Distance for Rent
 
@@ -142,7 +145,9 @@ For property purchases, the relationship price and distance to city center displ
 In Karkow, the dominant cluster appears between 2.5-5.5 km, with prices ranging from 650 000-900 000zł.
 In Wrocław, the distribution is more spatially condensed, centered around 2.0-2.5 km, with prices between 600 000 and 700 000 zł.
 In Lublin, the peak concentration is tightly focused with 2.5-6 km, at prices between 600 000 and 650 000 zł.
-In Warszawa, the dominat range extends from 3.0 to 7.0 km, with purchase prices between 600 000 and 1 000 000 zł.
+In Warszawa, the dominant range extends from 3.0 to 7.0 km, with purchase prices between 600 000 and 1 000 000 zł.
+
+![Price vs Distance Distribution](plots/purchase_price_vs_center_distance_distribution.png)
 
 ### Machine learning model accuracy and performance
 
