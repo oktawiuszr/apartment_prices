@@ -124,7 +124,7 @@ These multiple peaks suggest diverse subcenters or well-developed zones at vario
 
 For all cities Rent Price Distribution has one significant peak between values 2 000 zł to 4 000 zł. The Price Distribution for Krakow is gently shiffted to left. Its suggest that, in Karkow there is more probable to find apartment for rent in lower price.
 
-### Purchase Price
+#### Purchase Price
 
 ![Price Distribution for Purchase](plots/purchase_price_distibution.png)
 
