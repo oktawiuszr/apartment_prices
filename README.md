@@ -19,6 +19,7 @@ The goal of the project is to analyze factors contribution on price of the rent,
 
 bash
 
++
 ```
 
 ├─data/               # Datasets (original, intermediate, cleaned)
@@ -102,11 +103,52 @@ Average rental prices range from approximately 40 zł to 85 zł per square meter
 Purchase prices range from around 6,000 zł to over 18,000 zł per square meter. The highest property pries are consistency found in Warsaw, followed by Kraków, Wroclaw, Lublin, and Radom. Across all cities, a steady upward trend in purchase prices has been observed over time.
 
 ![Average Purchase Price Over Time](plots/purchase_average_price_vs_period.png)
-## Machine learning model accuracy and performance
+
+### Price and distance distribution
+
+During the analysis, there were analyzed distribution of price [zł], and distance to center [km] separately, and price and distance together.
+
+#### Rent Distance
+
+ For almost all cities is observed significant peak in distance between 2 km to 2,5 km to center. The peaks' left skewness is determined by city magnitude - peaks for larger cities are shifted to left. Next significant peaks are observed for all cities, except Radom, in distance from 4,5 km to 5 km to center. For Krakow and Warszawa observed is also peak in range of value around 9 km and 1 km, where for Krakow these peaks are shifted to left by app. 1 km.
+
+#### Purchase Distance
+
+For Purchase, Distance distribution indicates more peaks for each city. For all cities is observed peak in distance between 1 km to 2 km to city center. Similar to Rent Distance Distribution, characteristic peaks for distance app. 4,5 km, 7 km, and 11 km (for Warszawa) are shifted to left in dependence of city size.
+
+These multiple peaks suggest diverse subcenters or well-developed zones at various distances.
+
+#### Rent Price
+
+For all cities Rent Price Distribution has one significant peak between values 2 000 zł to 4 000 zł. The Price Distribution for Krakow is gently shiffted to left. Its suggest that, in Karkow there is more probable to find apartment for rent in lower price.
+
+### Purchase Price
+
+For all cities, the distribution of price of the purchase exhibit a single significant peak, and is left skewed. In Radom peak occurs above 250 000 zł. In Lublin is centered above 500 000 zł. For Wrocław and Krakow, the peaks fall within the 650 000- 600 000 zł range. In Warszawa the peak is observed for above 700 000 zł, reflecting its position as the most expensive market among the analyzed cities. 
+
+
+#### Price vs Distance for Rent
+
+The distribution allows to indicate the most common correlation between price and distance to center. The spectrum of results is highly related to area of the city.
+In Krakow, the dominant cluster is within the 2 500-4 500 zł  price range and 1.5-5km from the center.
+In Wrocław, the concentration lies in the 2 000-4 500 zł rage, primarily within 0.5-3km.  
+In Warszawa, the prevailing range is 4 000-5 000 zł, with distances mainly between 0.5-6km.
+
+The price vs distance to center distribution suggests that larger cities not only command higher prices, but also exhibit a broader spatial distribution of high-value transactions.
+
+#### Price vs Distance for Purchase
+
+For property purchases, the relationship price and distance to city center displays more distinct and city-specific patterns. 
+In Karkow, the dominant cluster appears between 2.5-5.5 km, with prices ranging from 650 000-900 000zł.
+In Wrocław, the distribution is more spatially condensed, centered around 2.0-2.5 km, with prices between 600 000 and 700 000 zł.
+In Lublin, the peak concentration is tightly focused with 2.5-6 km, at prices between 600 000 and 650 000 zł.
+In Warszawa, the dominat range extends from 3.0 to 7.0 km, with purchase prices between 600 000 and 1 000 000 zł.
+
+### Machine learning model accuracy and performance
 
 [ML Models Comparison Report](reports/ML_models_comparison.csv)
 
-### Speed
+#### Speed
 
 - Linear Regression is by far the fastest model:
 
@@ -118,7 +160,7 @@ Purchase prices range from around 6,000 zł to over 18,000 zł per square meter.
 - XGBoost is somewhere in the middle:
   - Training time: app.0.2 sec
 
-### Prediction Accuracy
+#### Prediction Accuracy
 
 - Coefficient of Determination $R^2$:
 
@@ -133,21 +175,22 @@ XGBoost demonstrated the most balanced performance, offering a strong compromise
 
 ## Clone the repo
 
-git clone <https://github.com/your-username/your-repo.git>
+git clone <https://github.com/oktawiuszr/apartment_prices.git>
 cd your-repo
 
 ## Install dependencies
 
 pip install -r requirements.txt
 
-## Run notebooks
-
-jupyter notebook notebooks/eda_modeling.ipynb
-
 ## Future Work
 
 - Obtain data from advertising pages for 3 other cities for time of the year
 
+- Sub-corelation factors (distance/city area, price/area of flat)
+
+- Corelation amenities, and building types with building age.
+
 - Data analysis of price changes over time, and distance to center
 
 ## Contact
+
