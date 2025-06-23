@@ -82,13 +82,13 @@ The comparison of statistic indicators using t-test, Mann–Whitney, Kolmogorov�
 - KS method test evaluates whether the overall distributions differ.
 - Cliff's Delta quantifies the effect size, measuring the degree of separation between groups.
 
-#### Rent
+Rent:
 
-While all features yield statistically significant p-values across tests, only the presence of an elevator shows a standout correlation with a practically meaning effect size. This indicates that, among the amenities tested, the elevator is the only one with a clear and measurable impact on rental pricing.
+- While all features yield statistically significant p-values across tests, only the presence of an elevator shows a standout correlation with a practically meaning effect size. This indicates that, among the amenities tested, the elevator is the only one with a clear and measurable impact on rental pricing.
 
-#### Purchase
+Purchase:
 
-All amenities show statistically significant differences in purchase prices between presence and absence group, but only presence of security, storage room, parking space, and elevator exhibit small but practically relevant effect sizes, what suggest these amenities contribute to rent valuation, which security have the most pronounced impact.
+- All amenities show statistically significant differences in purchase prices between presence and absence group, but only presence of security, storage room, parking space, and elevator exhibit small but practically relevant effect sizes, what suggest these amenities contribute to rent valuation, which security have the most pronounced impact.
 
 ### Average price over time
 
@@ -111,7 +111,7 @@ During the analysis, there were analyzed distribution of price [zł], and distan
 #### Rent Distance
 
  For almost all cities is observed significant peak in distance between 2 km to 2,5 km to center. The peaks' left skewness is determined by city magnitude - peaks for larger cities are shifted to left. Next significant peaks are observed for all cities, except Radom, in distance from 4,5 km to 5 km to center. For Krakow and Warszawa observed is also peak in range of value around 9 km and 1 km, where for Krakow these peaks are shifted to left by app. 1 km.
- 
+
  ![Distnace Distribution for Rent](plots/rent_distance_distibution.png)
 
 #### Purchase Distance
