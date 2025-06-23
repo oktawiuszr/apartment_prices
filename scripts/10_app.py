@@ -9,7 +9,7 @@ st.title("Apartment Price Prediction")
 st.markdown("Fill in the details below to estimate the apartment price.")
 
 # Inputs
-buliding_type = st.selectbox("Building Type", ["NoData", "blockOfFlats", "tenement", "apartmentBuilding"])
+building_type = st.selectbox("Building Type", ["NoData", "blockOfFlats", "tenement", "apartmentBuilding"])
 material = st.selectbox("Building Material", ["NoData", "brick", "concreteSlab"])
 parking = st.checkbox("Parking Space")
 balcony = st.checkbox("Balcony")
@@ -27,7 +27,7 @@ centre_distance = st.slider("Distance to center (km)", 0.0, 20.0, 2.0)
 # Prediction
 if st.button("Predict Price"):
     input_data = pd.DataFrame([{
-        "type": buliding_type,
+        "type": building_type,
         "buildingMaterial": material,
         "squareMeters": square_meters,
         "rooms": rooms,

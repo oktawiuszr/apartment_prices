@@ -2,7 +2,7 @@ print("functions.py loaded")
 
 
 # The function takes path and export all CSV in DataFrame format, start determines prefix of the name of the files, end determine suffix of the name.
-# The funtion returns [names of files] and [files]
+# The function returns [names of files] and [files]
 def all_import(path, end=0, start=0):
     import os
     import pandas as pd
