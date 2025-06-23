@@ -110,7 +110,7 @@ During the analysis, there were analyzed distribution of price [zł], and distan
 
 Rent Distance:
 
- - For almost all cities is observed significant peak in distance between 2 km to 2,5 km to center. The peaks' left skewness is determined by city magnitude - peaks for larger cities are shifted to left. Next significant peaks are observed for all cities, except Radom, in distance from 4,5 km to 5 km to center. For Krakow and Warszawa observed is also peak in range of value around 9 km and 1 km, where for Krakow these peaks are shifted to left by app. 1 km.
+- For almost all cities is observed significant peak in distance between 2 km to 2,5 km to center. The peaks' left skewness is determined by city magnitude - peaks for larger cities are shifted to left. Next significant peaks are observed for all cities, except Radom, in distance from 4,5 km to 5 km to center. For Krakow and Warszawa observed is also peak in range of value around 9 km and 1 km, where for Krakow these peaks are shifted to left by app. 1 km.
 
  ![Distnace Distribution for Rent](plots/rent_distance_distibution.png)
 
@@ -133,9 +133,9 @@ Purchase Price:
 Price vs Distance for Rent:
 
 - The distribution allows to indicate the most common correlation between price and distance to center. The spectrum of results is highly related to area of the city.
-  - In Krakow, the dominant cluster is within the 2 500-4 500 zł  price range and 1.5-5km from the center.
-  - In Wrocław, the concentration lies in the 2 000-4 500 zł rage, primarily within 0.5-3km.  
-  - In Warszawa, the prevailing range is 4 000-5 000 zł, with distances mainly between 0.5-6km.
+  - In Krakow, the dominant cluster is within the 2 500-4 500 zł  price range and 1.5-5 km from the center.
+  - In Wrocław, the concentration lies in the 2 000-4 500 zł rage, primarily within 0.5-3 km.  
+  - In Warszawa, the prevailing range is 4 000-5 000 zł, with distances mainly between 0.5-6 km.
 
 - The price vs distance to center distribution suggests that larger cities not only command higher prices, but also exhibit a broader spatial distribution of high-value transactions.
 
