@@ -94,13 +94,13 @@ Purchase:
 
 Average price of square meter for Warszawa, Lublin, Radom, Wrocław, and Kraków from September 2023 to June 2024
 
-#### Rent
+Rent:
 
-Average rental prices range from approximately 40 zł to 85 zł per square meter. Warsaw commands the highest rental rates, while Wrocław and Kraków follow with comparably similar prices. Radom remains the most affordable city for renters. Notably, Warsaw has shown a downward trend in rental prices.
+- Average rental prices range from approximately 40 zł to 85 zł per square meter. Warsaw commands the highest rental rates, while Wrocław and Kraków follow with comparably similar prices. Radom remains the most affordable city for renters. Notably, Warsaw has shown a downward trend in rental prices.
 
-#### Purchase
+Purchase
 
-Purchase prices range from around 6,000 zł to over 18,000 zł per square meter. The highest property pries are consistency found in Warsaw, followed by Kraków, Wroclaw, Lublin, and Radom. Across all cities, a steady upward trend in purchase prices has been observed over time.
+- Purchase prices range from around 6,000 zł to over 18,000 zł per square meter. The highest property pries are consistency found in Warsaw, followed by Kraków, Wroclaw, Lublin, and Radom. Across all cities, a steady upward trend in purchase prices has been observed over time.
 
 ![Average Purchase Price Over Time](plots/purchase_average_price_vs_period.png)
 
@@ -108,40 +108,40 @@ Purchase prices range from around 6,000 zł to over 18,000 zł per square meter.
 
 During the analysis, there were analyzed distribution of price [zł], and distance to center [km] separately, and price and distance together.
 
-#### Rent Distance
+Rent Distance:
 
- For almost all cities is observed significant peak in distance between 2 km to 2,5 km to center. The peaks' left skewness is determined by city magnitude - peaks for larger cities are shifted to left. Next significant peaks are observed for all cities, except Radom, in distance from 4,5 km to 5 km to center. For Krakow and Warszawa observed is also peak in range of value around 9 km and 1 km, where for Krakow these peaks are shifted to left by app. 1 km.
+ - For almost all cities is observed significant peak in distance between 2 km to 2,5 km to center. The peaks' left skewness is determined by city magnitude - peaks for larger cities are shifted to left. Next significant peaks are observed for all cities, except Radom, in distance from 4,5 km to 5 km to center. For Krakow and Warszawa observed is also peak in range of value around 9 km and 1 km, where for Krakow these peaks are shifted to left by app. 1 km.
 
  ![Distnace Distribution for Rent](plots/rent_distance_distibution.png)
 
-#### Purchase Distance
+Purchase Distance
 
-For Purchase, Distance distribution indicates more peaks for each city. For all cities is observed peak in distance between 1 km to 2 km to city center. Similar to Rent Distance Distribution, characteristic peaks for distance app. 4,5 km, 7 km, and 11 km (for Warszawa) are shifted to left in dependence of city size.
+- For Purchase, Distance distribution indicates more peaks for each city. For all cities is observed peak in distance between 1 km to 2 km to city center. Similar to Rent Distance Distribution, characteristic peaks for distance app. 4,5 km, 7 km, and 11 km (for Warszawa) are shifted to left in dependence of city size.
 
 These multiple peaks suggest diverse subcenters or well-developed zones at various distances.
 
-#### Rent Price
+Rent Price:
 
-For all cities Rent Price Distribution has one significant peak between values 2 000 zł to 4 000 zł. The Price Distribution for Krakow is gently shiffted to left. Its suggest that, in Karkow there is more probable to find apartment for rent in lower price.
+- For all cities Rent Price Distribution has one significant peak between values 2 000 zł to 4 000 zł. The Price Distribution for Krakow is gently shiffted to left. Its suggest that, in Karkow there is more probable to find apartment for rent in lower price.
 
-#### Purchase Price
+Purchase Price:
 
-For all cities, the distribution of price of the purchase exhibit a single significant peak, and is left skewed. In Radom peak occurs above 250 000 zł. In Lublin is centered above 500 000 zł. For Wrocław and Krakow, the peaks fall within the 650 000- 600 000 zł range. In Warszawa the peak is observed for above 700 000 zł, reflecting its position as the most expensive market among the analyzed cities.
+- For all cities, the distribution of price of the purchase exhibit a single significant peak, and is left skewed. In Radom peak occurs above 250 000 zł. In Lublin is centered above 500 000 zł. For Wrocław and Krakow, the peaks fall within the 650 000- 600 000 zł range. In Warszawa the peak is observed for above 700 000 zł, reflecting its position as the most expensive market among the analyzed cities.
 
 ![Price Distribution for Purchase](plots/purchase_price_distibution.png)
 
-#### Price vs Distance for Rent
+Price vs Distance for Rent:
 
-The distribution allows to indicate the most common correlation between price and distance to center. The spectrum of results is highly related to area of the city.
-In Krakow, the dominant cluster is within the 2 500-4 500 zł  price range and 1.5-5km from the center.
-In Wrocław, the concentration lies in the 2 000-4 500 zł rage, primarily within 0.5-3km.  
-In Warszawa, the prevailing range is 4 000-5 000 zł, with distances mainly between 0.5-6km.
+- The distribution allows to indicate the most common correlation between price and distance to center. The spectrum of results is highly related to area of the city.
+  - In Krakow, the dominant cluster is within the 2 500-4 500 zł  price range and 1.5-5km from the center.
+  - In Wrocław, the concentration lies in the 2 000-4 500 zł rage, primarily within 0.5-3km.  
+  - In Warszawa, the prevailing range is 4 000-5 000 zł, with distances mainly between 0.5-6km.
 
-The price vs distance to center distribution suggests that larger cities not only command higher prices, but also exhibit a broader spatial distribution of high-value transactions.
+- The price vs distance to center distribution suggests that larger cities not only command higher prices, but also exhibit a broader spatial distribution of high-value transactions.
 
-#### Price vs Distance for Purchase
+Price vs Distance for Purchase:
 
-For property purchases, the relationship price and distance to city center displays more distinct and city-specific patterns. 
+- For property purchases, the relationship price and distance to city center displays more distinct and city-specific patterns.
 In Karkow, the dominant cluster appears between 2.5-5.5 km, with prices ranging from 650 000-900 000zł.
 In Wrocław, the distribution is more spatially condensed, centered around 2.0-2.5 km, with prices between 600 000 and 700 000 zł.
 In Lublin, the peak concentration is tightly focused with 2.5-6 km, at prices between 600 000 and 650 000 zł.
