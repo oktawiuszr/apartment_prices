@@ -111,6 +111,7 @@ During the analysis, there were analyzed distribution of price [zł], and distan
 #### Rent Distance
 
  For almost all cities is observed significant peak in distance between 2 km to 2,5 km to center. The peaks' left skewness is determined by city magnitude - peaks for larger cities are shifted to left. Next significant peaks are observed for all cities, except Radom, in distance from 4,5 km to 5 km to center. For Krakow and Warszawa observed is also peak in range of value around 9 km and 1 km, where for Krakow these peaks are shifted to left by app. 1 km.
+ 
  ![Distnace Distribution for Rent](plots/rent_distance_distibution.png)
 
 #### Purchase Distance
@@ -126,6 +127,7 @@ For all cities Rent Price Distribution has one significant peak between values 2
 #### Purchase Price
 
 For all cities, the distribution of price of the purchase exhibit a single significant peak, and is left skewed. In Radom peak occurs above 250 000 zł. In Lublin is centered above 500 000 zł. For Wrocław and Krakow, the peaks fall within the 650 000- 600 000 zł range. In Warszawa the peak is observed for above 700 000 zł, reflecting its position as the most expensive market among the analyzed cities.
+
 ![Price Distribution for Purchase](plots/purchase_price_distibution.png)
 
 #### Price vs Distance for Rent
