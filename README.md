@@ -142,10 +142,10 @@ Price vs Distance for Rent:
 Price vs Distance for Purchase:
 
 - For property purchases, the relationship price and distance to city center displays more distinct and city-specific patterns.
-In Karkow, the dominant cluster appears between 2.5-5.5 km, with prices ranging from 650 000-900 000zł.
-In Wrocław, the distribution is more spatially condensed, centered around 2.0-2.5 km, with prices between 600 000 and 700 000 zł.
-In Lublin, the peak concentration is tightly focused with 2.5-6 km, at prices between 600 000 and 650 000 zł.
-In Warszawa, the dominant range extends from 3.0 to 7.0 km, with purchase prices between 600 000 and 1 000 000 zł.
+  - In Karkow, the dominant cluster appears between 2.5-5.5 km, with prices ranging from 650 000-900 000zł.
+  - In Wrocław, the distribution is more spatially condensed, centered around 2.0-2.5 km, with prices between 600 000 and 700 000 zł.
+  - In Lublin, the peak concentration is tightly focused with 2.5-6 km, at prices between 600 000 and 650 000 zł.
+  - In Warszawa, the dominant range extends from 3.0 to 7.0 km, with purchase prices between 600 000 and 1 000 000 zł.
 
 ![Price vs Distance Distribution](plots/purchase_price_vs_center_distance_distribution.png)
 
